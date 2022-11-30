@@ -1,0 +1,105 @@
+{
+    "Sobremesas": [
+      {
+        "id": 1,
+        "nome": "Torta de Limão(Fatia)",
+        "descricao": "Farinha de trigo, Manteiga, Açúcar, Ovo, Leite Condensado, Limão, Creme de Leite, Essência de Baunilha",
+        "preco": 15.50,
+        "categoria_id": 1
+      },
+      {
+        "id": 2,
+        "nome": "Torta Holandesa(Fatia)",
+        "descricao": "Farinha de trigo, Manteiga, Açúcar, Ovo, Leite condensado, Leite, Amido de Milho, Creme de leite, Cacau em pó, Biscoitos, Essência de Baunilha",
+        "preco": 18.90,
+        "categoria_id": 1
+      },
+      {
+        "id": 3,
+        "nome": "Brownie",
+        "descricao": "Farinha de trigo, Manteiga, Açúcar, Ovo, Cacau em Pó, Ovo",
+        "preco": 15.90,
+        "categoria_id": 1
+      },
+      {
+        "id": 4,
+        "nome": "Brigadeirão",
+        "descricao": "Leite condensado, Leite, Amido de milho, Cacau em pó, Manteiga, Chocolate granulado",
+        "preco": 14.50,
+        "categoria_id": 1
+      }
+    ],
+      "Pratos": [
+
+      {
+        "id": 5,
+        "nome": "Coxa de frango com ervas",
+        "descricao": "Coxa de frango, Farinha de rosca, Salsinha, Cebolinha, Orégano, Manjericão, Pimenta-do-reino",
+        "acompanhamento": "arroz, fritas, legumes salteados",
+        "preco": 42.90,
+        "categoria_id": 2
+      },
+      {
+        "id": 6,
+        "nome": "Burrata de limão siciliano",
+        "descricao": "Queijo mussarela de búfala, Manteiga, Ciboulette, Limão-siciliano, Pimenta-do-reino",
+        "acompanhamento": "Torrada",
+        "preco": 52.90,
+        "categoria_id": 2
+      },
+      {
+        "id": 7,
+        "nome": "Ceviche Beija-Flor",
+        "descricao": "Hibisco, Maracujá, Limão-taiti, Azeite, Mel, Leite de coco, Pimenta dedo-de-moça, Cebola roxa, Peixe branco, Flor comestível, Brotos",
+        "preco": 59.99,
+        "categoria_id": 2
+      },
+      {
+        "id": 8,
+        "nome": "Maminha assada com manjericão",
+        "descricao": "Maminha, Óleo, Molho de soja (shoyu), Orégano, Manjericão, Pimenta-dedo-de-moça, Azeite de oliva, Alho",
+        "acompanhamento": "arroz, fritas, legumes salteados",
+        "preco": 55.99,
+        "categoria_id": 2
+      }
+    ],
+    
+    "Bebidas": [
+        {
+          "id": 9,
+          "nome": "Chá Preto",
+          "sabores": "Limão, Pêssego, Amora, Morango",
+          "preco": 12.90,
+          "categoria_id": 3
+        },
+        {
+            "id": 10,
+            "nome": "Refrigerantes",
+            "sabores": "Coca-Cola, Fanta Uva, Fanta Laranja, Guaraná",
+            "preco": 11.90,
+            "categoria_id": 3
+          },
+          {
+            "id": 11,
+            "nome": "Sucos",
+            "sabores": "Limão,Laranja, Abacaxi, Maracujá",
+            "preco": 13.90,
+            "categoria_id": 3
+          }
+    ],
+    "categorias": [
+      {
+        "id": 1,
+        "nome": "Sobremesas"
+      },
+      {
+        "id": 2,
+        "nome": "Pratos"
+      },
+
+      {
+        "id": 3,
+        "nome": "Bebidas"
+      }
+    ]
+  }
